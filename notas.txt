@@ -1,0 +1,19 @@
+¿Qué es node?
+
+Entorno de ejecución de JS fuera del navegador
+Fuera del navegador
+Servidores, IoT, herramientas
+Bases
+
+Concurrente
+– Entradas y salidas asíncronas
+– Un proceso por cada núcleo del procesador
+Motor V8
+– JS en código máquina, en vez de interpretarlo irt
+Modular
+– Todo lo que no sea sintaxis, son módulos
+Orientado a eventos
+– Bucle de eventos que se ejecutan constantemente
+– Reactivo
+
+Event loop: Un proceso con un ++bucle ++que gestiona, de forma asíncrona, todos los eventos de tu aplicación.
