@@ -61,3 +61,4 @@ npm outdate
 npm update
 
 En Node. js, un módulo es un conjunto de funciones y objetos de JavaScript que las aplicaciones externas pueden usar
+Un buffer es un montón de datos y un stream es un proceso donde pasan un montón de datos.
