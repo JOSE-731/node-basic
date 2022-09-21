@@ -1,3 +1,4 @@
+///Los eventos sirven para escuchar procesos de node
 //no se hace, ya que process pertenece los modulos globales, que ya vienen con node
 //const process = require('process');
 
