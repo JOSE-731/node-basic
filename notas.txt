@@ -59,3 +59,5 @@ npm outdate
 
 #Actualizar las dependencias desactualizadas
 npm update
+
+En Node. js, un módulo es un conjunto de funciones y objetos de JavaScript que las aplicaciones externas pueden usar
