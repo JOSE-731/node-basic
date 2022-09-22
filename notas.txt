@@ -62,3 +62,36 @@ npm update
 
 En Node. js, un módulo es un conjunto de funciones y objetos de JavaScript que las aplicaciones externas pueden usar
 Un buffer es un montón de datos y un stream es un proceso donde pasan un montón de datos.
+
+HTTP: es el protocologo de comunicación
+que permite las transferencias de información en la web, entre un cliente y un servidor (cliente hace la peticion y servidor da la respuesta)
+
+Metodos:El que define a la peticion la accion que queremos hacer
+Get:Para retornar informacion del servidor
+Post: Para agregar informacion nueva
+Put: Para actualizar informacion
+Patch: Para ediciones cortas
+Delete: Para eliminar informacion
+Options: saber si se puede ejecutar alguno de los metodos anteriores
+
+Cabecera: Nos contextualiza acerca de la peticion, que tipo de informacion
+le vamos a enviar que tipo de autenticacion
+
+Cookies: Compartir informacion entre servidores 
+Cors: Maneja los permisos de donde se puede consumir nuestra peticion
+Accept:Acepta el tipo de contenido, si es json si es con caracteres etc
+Autenticacion: Se utiliza para verifir si un usuario tiene permiso para acceder a los recursos
+Caché:Almacenamiento temporal 
+
+Estados: Indican el exito de una peticion
+2xx: Ok, created
+3xx: La peticion se redirigio a otro sitio
+4xx: Errores del cliente, si no estamos autorizados
+5xx: Errores del servidor
+
+Body:Cuerpo de la peticion, ejemplo los datos del registro que queremos crear 
+{
+ "name": jose
+}
+Content-Type:El tipo de contenido
+Content-length: Tamaño del contenido
