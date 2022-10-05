@@ -12,6 +12,7 @@ app.use(router);
 })*/
 
 router.get('/', function(req, res){
+    console.log(`Request ${req.headers}`);
     res.send("Listando mensajes")
 })
 
@@ -23,6 +24,8 @@ router.post('/menssage', function(req, res){
 router.delete('/delete', function(req, res){
     res.send("Eliminando mensaje")
 })
+
+app.use('/index', express.static('public'));
 
 console.log("Server corriendo")
 app.listen(3000);//Especificamos el puerto
